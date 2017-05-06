@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">admisson</string>
+    <string name="mainRegiName">your name</string>
+    <string name="mainRegiEmail">your email</string>
+    <string name="headingRegistration">insert your information</string>
+    <string name="NextButton">next</string>
+    <string name="title_activity_navigation_drawer">navigationDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
