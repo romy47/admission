@@ -31,6 +31,7 @@ public class UserServices extends AppCompatActivity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 //        MySQLiteOpenHelper db=new MySQLiteOpenHelper(this);
 //
 //        super.onCreate(savedInstanceState);

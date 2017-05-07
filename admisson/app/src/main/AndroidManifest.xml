@@ -23,7 +23,9 @@
         <activity android:name=".ChooseGroup" />
         <activity android:name=".hscGradeScience" />
         <activity android:name=".reviewGpaInformationScience" />
-        <activity android:name=".UserServices" />
+        <activity android:name=".UserServices"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
         <activity android:name=".AllUnitsDetails" />
         <activity android:name=".UserServicesAllUnits" />
         <activity android:name=".DepartmentDetails" />
