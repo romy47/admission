@@ -11,6 +11,7 @@ import java.util.List;
  */
 public class MyPagerAdapter extends FragmentPagerAdapter
 {
+    private String[] titles = {"Dashboard", "Suggested Universities", "All Universities" };
     private List<Fragment> fragments;
     public MyPagerAdapter(FragmentManager fm, List<Fragment> fragmentList)
     {
@@ -28,5 +29,9 @@ public class MyPagerAdapter extends FragmentPagerAdapter
     public int getCount()
     {
         return fragments.size();
+    }
+    @Override
+    public CharSequence getPageTitle(int position) {
+        return titles[position];
     }
 }

@@ -24,6 +24,7 @@
         <activity android:name=".hscGradeScience" />
         <activity android:name=".reviewGpaInformationScience" />
         <activity android:name=".UserServices"
+            android:theme="@style/AppTheme.NoActionBar"
             />
         <activity android:name=".AllUnitsDetails" />
         <activity android:name=".UserServicesAllUnits" />
@@ -32,6 +33,10 @@
         <activity
             android:name=".navigationDrawer"
             android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nav2"
+            android:label="@string/title_activity_nav2"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
